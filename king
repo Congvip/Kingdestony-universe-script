@@ -1,0 +1,168 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Kingdestony Universe hub", HidePremium = false, SaveConfig = true, ConfigFolder = "1"})
+OrionLib:MakeNotification({
+
+    Name = "Subscribe Kingdestony",
+    Content = "Nah id win",
+    Image = "rbxassetid://4483345998",
+    Time = 5
+    
+})
+local Tab = Window:MakeTab({
+    Name = "Misc",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+local Section = Tab:AddSection({
+    Name = "Home Misc"
+})
+Tab:AddButton({
+    Name = "Fly",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
+              print("sub Kingdestony")
+      end
+})
+
+Tab:AddButton({
+	Name = "Esp Monster,Npc (95% work all game)",
+	Callback = function()
+	for _, item in pairs(workspace:GetDescendants()) do
+    if item:IsA("Humanoid") then
+        local highlight = Instance.new("Highlight")
+        local parent = item.Parent
+        if parent then
+            local plr = game.Players:GetPlayerFromCharacter(parent)
+            if not plr then
+                highlight.Parent = parent
+            end
+        end
+    end
+end
+      		print("sub Kingdestony")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Teleport, Invisible",
+	Callback = function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/0Ben1/fe./dbb6ce6f6cee4f7a5c9e20d7b88e83db2a93bf25/Invisible%20GUI'))()
+      		print("sub Kingdestony")
+  	end    
+})
+local Tab2 = Window:MakeTab({
+    Name = "Admin fake",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+local Section = Tab2:AddSection({
+    Name = "Misc 2"
+})
+
+Tab2:AddButton({
+    Name = "Rochip",
+    Callback = function()
+    if "Rochips Loader" then
+    local Rochips_panel,v,u,i=loadstring,"/snippets","gwwv","/raw/main.lua" ;
+    Rochips_panel(game:HttpGet("https://glot.io"..v.."/" ..u.."877ga3"..i))();
+    return "it will load in around 3 - 131 seconds"
+end
+              print("Sub Kingdestony")
+      end    
+})
+
+Tab2:AddButton({
+	Name = "Esp Player all game",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Sponge123456789/Sponge/main/Rainbow%20Friends%20Chapter%202%20script"))()
+      		print("Sub Kingdestony")
+  	end    
+})
+
+local Tab3 = Window:MakeTab({
+	Name = "Muder mystery",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab3:AddButton({
+	Name = "muder mystery",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Joystickplays/psychic-octo-invention/main/yarhm.lua", false))()
+      		print("button pressed")
+  	end    
+})
+
+local Tab4 = Window:MakeTab({
+	Name = "Stand awakening",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab4:AddButton({
+	Name = "Bebo hub",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Bebo-Mods/BeboScripts/main/StandAwekening.lua"))()
+      		print("sub Kingdestony")
+  	end    
+})
+Tab4:AddButton({
+	Name = "Ameno hub(If you no cant turn on try turn vpn)",
+	Callback = function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/EBAXntBJ"))()
+      		print("sub Kingdestony")
+  	end    
+})
+Tab4:AddButton({
+	Name = "Script help boss fast attack",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Just3itx/Deezs/main/Games/Stands%20Awakening/Loader.lua"))()
+      		print("Sub kingdestony")
+  	end    
+})
+Tab4:AddButton({
+	Name = "Script auto boss",
+	Callback = function()
+	getgenv().WaitTime = 0.0 loadstring(game:HttpGet("https://raw.githubusercontent.com/sunexn/standsawakening/main/uncanny.lua",true))()
+g = hookfunction(wait, function(seconds)
+return g(0.0)
+end)
+      		print("sub Kingdestony")
+  	end    
+})
+
+local Tab5 = Window:MakeTab({
+	Name = "The strongest battleground",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab5:AddButton({
+	Name = "Fe Gojo moveset 1",
+	Callback = function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/Fz5qGQa2'))()
+      		print("sub Kingdestony")
+  	end    
+})
+
+Tab5:AddButton({
+	Name = "Fe gojo moveset 2",
+	Callback = function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/Y3uyGSK6"))()
+      		print("sub Kingdestony")
+  	end    
+})
+Tab5:AddButton({
+	Name = "Fe gojo moveset 3",
+	Callback = function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/2aDTHUTA"))()
+      		print("Sub kingdestony")
+  	end    
+})
+Tab5:AddButton({
+	Name = "Fe gojo moveset 4",
+	Callback = function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/6A3nAMqj"))()
+      		print("sub Kingdestony")
+  	end    
+})
+
+OrionLib:Init()
